@@ -19,3 +19,38 @@ body {
     overflow: hidden;
     width: 300px;
 }
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba( 0, 0, 0, 0.2);
+}
+
+.card-imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-titulo {
+    padding: 15px;
+    color:#333;
+    font-size: 1.5em;
+}
+
+
+.card-descricao {
+    padding: 0 15px;
+    color: #333;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.card-botao {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: nome;
+    cursor: pointer;
+    font-size: 1em;
+}
